@@ -1,11 +1,32 @@
-<div align="center">
+# Netflix Data Insights: Trends & Patterns
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+This project provides a comprehensive end-to-end analysis of the Netflix dataset, covering everything from raw data cleaning to interactive visualization.
 
-  <h1>Built with AI Studio</h2>
+## Project Structure
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- `cleaning.ipynb`: Python notebook containing the data cleaning and feature engineering logic.
+- `analysis.sql`: SQL scripts for deep-dive exploratory data analysis.
+- `Netflix_Dashboard.pbix`: Power BI dashboard file (Note: View the interactive version in the web app).
+- `cleaned_netflix_data.csv`: The final dataset used for analysis.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Key Stages
 
-</div>
+### 1. Data Cleaning
+- Handled 2,000+ missing values in `director` and `cast` columns.
+- Standardized date formats.
+- Engineered features: `Year Added`, `Month Added`, and `Duration Category`.
+
+### 2. SQL Analysis
+- Analyzed content distribution by type and country.
+- Identified growth patterns over the last decade.
+- Aggregated genre performance metrics.
+
+### 3. Power BI Dashboard
+- KPI overview for executive summary.
+- Global content map.
+- Rating and Genre breakdown.
+
+## Insights Summary
+- US and India produce ~45% of total content.
+- 2019 was the peak year for new content additions.
+- Mature content (TV-MA) dominates the library composition.
