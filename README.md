@@ -9,6 +9,10 @@ This project provides a comprehensive end-to-end analysis of the Netflix dataset
 - `Netflix_Dashboard.pbix`: Power BI dashboard file (Note: View the interactive version in the web app).
 - `cleaned_netflix_data.csv`: The final dataset used for analysis.
 
+- ## Power BI Dashboard
+
+![Netflix Dashboard](Dashboard.png.jpeg)
+
 ## Key Stages
 
 ### 1. Data Cleaning
